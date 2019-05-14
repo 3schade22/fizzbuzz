@@ -1,8 +1,8 @@
 def fizzbuzz():
     for i in range(1,101):
-        if i % 3 == 0:
+        if not i % 3 == 0:
             print('fizz')
-        elif i % 5 == 0:
+        elif not i % 5 == 0:
             print('buzz')
         else:
             print(i)
