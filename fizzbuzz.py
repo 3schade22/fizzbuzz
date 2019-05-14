@@ -22,7 +22,8 @@ def fizzbuzz():
 
 if __name__ == '__main__':
     while True:
-        limerick()
+        name= input('What is your name?:')
+        twofer()
         shall_continue = input('Print again?')
         if shall_continue.lower() != 'y':
             break
